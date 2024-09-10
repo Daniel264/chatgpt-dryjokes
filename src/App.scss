@@ -1,5 +1,5 @@
-
 @use 'base';
+
 $mobile: 768px;
 $tablet: 1024px;
 
@@ -56,4 +56,14 @@ $tablet: 1024px;
 
     background-color: base.$secondary-color;
 }
+
+i {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .fas.fa-home {
+    color: #007bff;
+  }
 
