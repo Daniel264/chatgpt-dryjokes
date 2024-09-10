@@ -58,12 +58,18 @@ $tablet: 1024px;
 }
 
 i {
-    color: #333;
-    font-size: 24px;
+    font-size: 35px;
+    cursor: pointer;
     margin: 0 10px;
   }
   
-  .fas.fa-home {
-    color: #007bff;
+  .fab.fa-whatsapp {
+    color: #06D001;
+  }
+  .fab.fa-facebook {
+    color: #4F75FF;
+  }
+  .fab.fa-linkedin {
+    color: #4F75FF;
   }
 
