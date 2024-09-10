@@ -10,7 +10,7 @@ function App() {
   const joke = jokeDictionary[count];
 
   function handleClick() {
-    if (count < jokeDictionary.length) {
+    if (count < jokeDictionary.length - 1) {
       setCount(count + 1);
     } else {
       setCount(0);
