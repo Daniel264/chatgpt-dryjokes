@@ -19,9 +19,13 @@ function App() {
     <>
       <div className="main-box">
         <div className="joke-box">
-          <p>Joke # {joke.id}</p>
-          <p>{joke.text}</p>
-          <Button onClick={handleClick} />
+          <div className="text-box">
+            <p>Joke # {joke.id}</p>
+            <p>{joke.text}</p>
+          </div>
+          <div className="button-box">
+            <Button onClick={handleClick} />
+          </div>
         </div>
       </div>
     </>
