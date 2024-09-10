@@ -12,9 +12,9 @@ function App() {
             itaque deleniti sint perspiciatis vitae doloremque inventore ad
             magni ab!
           </p>
+          <Button />
         </div>
       </div>
-      <Button />
     </>
   );
 }
