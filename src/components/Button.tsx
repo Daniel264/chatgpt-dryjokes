@@ -1,7 +1,9 @@
+import "../App.scss";
+
 const Button = () => {
   return (
     <div>
-      <button>Next Joke</button>
+      <button className="btn">Next Joke</button>
     </div>
   );
 };

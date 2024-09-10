@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 body {
   font: 100% Sora, sans-serif;
+}
+
+.btn {
+  background-color: #D2E0FB;
+}
+
+.btn:hover {
+  background-color: #8EACCD;
 }/*# sourceMappingURL=App.css.map */
