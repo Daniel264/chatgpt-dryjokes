@@ -32,7 +32,12 @@ body {
 }
 
 .text-box {
+  font-weight: 200;
   height: 70%;
+}
+
+.header {
+  font-weight: 400;
 }
 
 .btn {

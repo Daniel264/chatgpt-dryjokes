@@ -20,7 +20,7 @@ function App() {
       <div className="main-box">
         <div className="joke-box">
           <div className="text-box">
-            <p>Joke # {joke.id}</p>
+            <p className="header">Joke # {joke.id}</p>
             <p>{joke.text}</p>
           </div>
           <div className="button-box">
