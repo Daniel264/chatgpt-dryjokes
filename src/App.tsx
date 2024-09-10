@@ -24,8 +24,8 @@ function App() {
             <p className="header">Joke # {joke.id}</p>
             <p>{joke.text}</p>
           </div>
-          <Icons />
           <div className="button-box">
+            <Icons />
             <Button onClick={handleClick} />
           </div>
         </div>
