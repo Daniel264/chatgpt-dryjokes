@@ -4,10 +4,16 @@ body {
 }
 
 .main-box {
+  width: 100%;
+  height: 100vh;
+}
+
+.joke-box {
   background: #8EACCD;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   padding: 1rem;
   border-radius: 1rem;
+  background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
