@@ -5,10 +5,6 @@ interface Jokes {
 
 export const jokeDictionary = [
   {
-    id: 0,
-    text: "Why did the student eat his homework? Because his teacher told him it was a piece of cake!",
-  },
-  {
     id: 1,
     text: "Why don’t skeletons fight each other? Because they don’t have the guts.",
   },
@@ -34,6 +30,10 @@ export const jokeDictionary = [
   {
     id: 9,
     text: "Why did the tomato turn red? Because it saw the salad dressing!",
+  },
+  {
+    id: 10,
+    text: "Why did the student eat his homework? Because his teacher told him it was a piece of cake!",
   },
 ];
 
