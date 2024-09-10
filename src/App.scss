@@ -16,6 +16,7 @@
     @include theme(base.$secondary-color);
     padding: 1rem;
     border-radius: 1rem;
+    width: 50%;
     @include theme($theme: #fff)
 }
 
