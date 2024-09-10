@@ -2,9 +2,15 @@
 @use 'base';
 
 .btn {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 0;
+    cursor: pointer;
     background-color: base.$primary-color;
 }
 
 .btn:hover {
+
     background-color: base.$secondary-color;
 }

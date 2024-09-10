@@ -4,6 +4,11 @@ body {
 }
 
 .btn {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 0;
+  cursor: pointer;
   background-color: #D2E0FB;
 }
 
