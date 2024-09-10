@@ -1,6 +1,7 @@
 
 @use 'base';
 $mobile: 768px;
+$tablet: 1024px;
 
 @mixin theme($theme: #c5d1ea) {
     background: $theme;
@@ -23,7 +24,11 @@ $mobile: 768px;
     border-radius: 1rem;
     width: 50%;
     height: fit-content;
-    @include theme($theme: #fff)
+    @include theme($theme: #fff);
+
+    @media screen and (max-width: $tablet){
+        width: 100%;
+    }
 }
 
 .btn {
@@ -40,5 +45,4 @@ $mobile: 768px;
 
     background-color: base.$secondary-color;
 }
-
 
