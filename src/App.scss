@@ -22,6 +22,7 @@ $tablet: 1024px;
     @include theme(base.$secondary-color);
     padding: 1rem;
     border-radius: 1rem;
+    font-size: base.$text-lg;
     width: 50%;
     height: 440px;
     @include theme($theme: #fff);
