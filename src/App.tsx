@@ -7,6 +7,14 @@ function App() {
   const [count, setCount] = useState(0);
 
   const joke = jokeDictionary[count];
+
+  function handleClick() {
+    if (count < jokeDictionary.length) {
+      setCount(count + 1);
+    } else {
+      setCount(0);
+    }
+  }
   setCount(count + 1);
   return (
     <>
@@ -14,7 +22,7 @@ function App() {
         <div className="joke-box">
           <p>Joke # {joke.id}</p>
           <p>{joke.text}</p>
-          <Button />
+          <Button onClick={handleClick} />
         </div>
       </div>
     </>
