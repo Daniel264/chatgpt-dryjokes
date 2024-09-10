@@ -4,9 +4,12 @@
 $primary-color: #D2E0FB;
 $secondary-color: #8EACCD;
 $font-stack: Sora, sans-serif;
+$text-sm: .5rem;
+$text-md: 1.2rem;
+$text-lg: 2rem;
+
 
 
 body {
-    
     font: 100% $font-stack;
 }
