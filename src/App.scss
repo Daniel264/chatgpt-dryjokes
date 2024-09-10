@@ -1,5 +1,7 @@
 
 @use 'base';
+$mobile: 768px;
+
 @mixin theme($theme: #c5d1ea) {
     background: $theme;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
@@ -38,3 +40,5 @@
 
     background-color: base.$secondary-color;
 }
+
+
