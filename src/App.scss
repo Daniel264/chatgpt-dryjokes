@@ -1,9 +1,3 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-
-$font-stack: Sora, sans-serif;
-
-body {
-    font: 100% $font-stack;
-}
+@use 'base'
 
