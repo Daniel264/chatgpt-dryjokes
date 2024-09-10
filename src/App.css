@@ -75,16 +75,13 @@ i {
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
     transform: translateY(-20px);
   }
-  70% {
+  20% {
     transform: translateY(-20px);
   }
 }
-.bounce {
+.bounce:hover {
   display: inline-block;
-  animation: bounce 2.4s infinite;
+  animation: bounce 4s infinite;
 }/*# sourceMappingURL=App.css.map */

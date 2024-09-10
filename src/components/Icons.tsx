@@ -4,8 +4,8 @@ const Icons = () => {
   return (
     <div>
       <i className="fab fa-whatsapp bounce"></i>
-      <i className="fab fa-facebook"></i>
-      <i className="fab fa-linkedin"></i>
+      <i className="fab fa-facebook bounce"></i>
+      <i className="fab fa-linkedin bounce"></i>
     </div>
   );
 };
