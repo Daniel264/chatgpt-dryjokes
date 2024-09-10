@@ -1,5 +1,9 @@
 
 @use 'base';
+@mixin theme($theme: #c5d1ea) {
+    background: $theme;
+    // box-shadow: ;
+}
 
 .btn {
     width: 15rem;
