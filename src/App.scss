@@ -2,7 +2,15 @@
 @use 'base';
 @mixin theme($theme: #c5d1ea) {
     background: $theme;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     // box-shadow: ;
+}
+
+.main-box {
+    @include theme(base.$secondary-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .btn {
@@ -10,6 +18,7 @@
     height: 3rem;
     border-radius: 1rem;
     border: 0;
+    font-size: base.$text-md;
     cursor: pointer;
     background-color: base.$primary-color;
 }

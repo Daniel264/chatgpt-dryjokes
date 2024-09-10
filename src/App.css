@@ -3,11 +3,20 @@ body {
   font: 100% Sora, sans-serif;
 }
 
+.main-box {
+  background: #8EACCD;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
 .btn {
   width: 15rem;
   height: 3rem;
   border-radius: 1rem;
   border: 0;
+  font-size: 1.2rem;
   cursor: pointer;
   background-color: #D2E0FB;
 }
