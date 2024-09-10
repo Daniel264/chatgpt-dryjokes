@@ -18,8 +18,7 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   width: 50%;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 440px;
   background: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
