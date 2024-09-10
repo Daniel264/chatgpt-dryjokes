@@ -1,9 +1,11 @@
 import "../App.scss";
 
-const Button = () => {
+const Button = ({ onClick }: { onClick: () => void }) => {
   return (
     <div>
-      <button className="btn">Next Joke</button>
+      <button onClick={onClick} className="btn">
+        Next Joke
+      </button>
     </div>
   );
 };
