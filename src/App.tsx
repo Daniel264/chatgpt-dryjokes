@@ -15,7 +15,6 @@ function App() {
       setCount(0);
     }
   }
-  setCount(count + 1);
   return (
     <>
       <div className="main-box">
