@@ -48,6 +48,7 @@ $tablet: 1024px;
     border-radius: 1rem;
     border: 0;
     font-size: base.$text-md;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     background-color: base.$primary-color;
 }
