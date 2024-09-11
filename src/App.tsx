@@ -21,13 +21,19 @@ function App() {
       <div className="main-box">
         <div className="joke-box">
           <div className="text-box">
-            <p className="header">Joke # {joke.id}</p>
+            <p className="header">Chatgpt Joke # {joke.id}</p>
             <p>{joke.text}</p>
           </div>
           <div className="button-box">
             <Icons />
             <Button onClick={handleClick} />
           </div>
+          <p className="extra">
+            Have more jokes?{" "}
+            <a href="https://github.com/Daniel264/chatgpt-dryjokes">
+              Fork this repo
+            </a>
+          </p>
         </div>
       </div>
     </>
