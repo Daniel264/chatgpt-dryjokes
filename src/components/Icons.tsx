@@ -4,8 +4,10 @@ const Icons = () => {
   return (
     <div>
       <i className="fab fa-whatsapp bounce"></i>
-      <i className="fab fa-facebook bounce"></i>
-      <i className="fab fa-linkedin bounce"></i>
+      <i className="fab fa-github bounce"></i>
+      <a href="https://www.linkedin.com/in/daniel-olatinsu-09415a230/">
+        <i className="fab fa-linkedin bounce"></i>
+      </a>
     </div>
   );
 };
