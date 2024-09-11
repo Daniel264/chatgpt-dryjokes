@@ -37,6 +37,10 @@ $tablet: 1024px;
     padding: 1rem 2rem 0;
     font-weight: 200;
     height: 60%;
+
+    @media screen and (max-width: $mobile) {
+        height: 75%;
+    }
 }
 
 .header {
